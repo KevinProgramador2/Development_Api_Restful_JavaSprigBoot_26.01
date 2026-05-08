@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Api</title>
+</head>
+
+<style>
+    body {
+        background-color: #353535;
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario>h1 {
+        color: wheat;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(45deg,
+                #f58529,
+                #feda77,
+                #dd2a7b,
+                #8134af,
+                #515bd4);
+        background-size: 200% 200%;
+        border-radius: 20px;
+
+        animation: gradientMove 5s ease infinite;
+    }
+
+    @keyframes gradientMove {
+        0% {
+            background-position: 0%
+        }
+
+        50% {
+            background-position: 100%
+        }
+
+        100% {
+            background-position: 0%
+        }
+    }
+
+
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        margin: 0.4rem;
+        padding: 0.7rem;
+
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <form class="formulario">
+        <h1>Formulario</h1>
+        <div class="inputs">
+            <label class for="pesquisa">
+                <input type="email" name="pesquisa" id="pesquisa" placeholder="Email">
+            </label>
+            <label for="senha">
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+            </label>
+        </div>
+        <p><a href="">Esqueci a senha</a></p>
+    </form>
+
+</body>
+
+</html>
