@@ -31,6 +31,11 @@ public class ProdutoController {
         return repository.save(produto);
     }
 
+    @GetMapping("/teste")
+    public String teste() {
+        return "ok";
+    }
+
     @GetMapping
 
     public List<Produto> listar() {
