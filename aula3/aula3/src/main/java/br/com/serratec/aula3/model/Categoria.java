@@ -1,17 +1,26 @@
 package br.com.serratec.aula3.model;
 
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 @Entity
 public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // “O BANCO DE DADOS é responsável por gerar o ID
-                                                    // automaticamente, usando auto-incremento”
+    // automaticamente, usando auto-incremento”
     private Long id;
     private String nome;
+
+    @JsonManagedReference
+    @OneToMany(mappedBy = "categoria") // MAPEIA PELA CATEGORIA
+    private List<Produto> produto;
 
     @Override
     public String toString() {

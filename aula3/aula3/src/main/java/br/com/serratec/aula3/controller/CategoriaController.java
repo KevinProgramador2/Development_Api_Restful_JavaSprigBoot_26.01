@@ -1,5 +1,7 @@
 package br.com.serratec.aula3.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +12,7 @@ import br.com.serratec.aula3.model.Categoria;
 import br.com.serratec.aula3.repository.CategoriaRepository;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 @RequestMapping("/categorias")
@@ -22,6 +25,12 @@ public class CategoriaController {
     @ResponseStatus(HttpStatus.CREATED)
     public Categoria inserir(@RequestBody Categoria categoria) {
         return repository.save(categoria);
+    }
+
+    @GetMapping
+
+    public List<Categoria> listar() {
+        return repository.findAll();
     }
 
 }

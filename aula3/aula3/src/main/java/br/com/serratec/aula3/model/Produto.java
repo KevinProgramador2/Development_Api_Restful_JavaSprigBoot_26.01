@@ -2,6 +2,8 @@ package br.com.serratec.aula3.model;
 
 import java.time.LocalDate;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,6 +22,7 @@ public class Produto {
     private String descricao;
     private LocalDate dataCadastro;
 
+    @JsonBackReference // referencia o mandante
     @ManyToOne // relacionamento de categoria em produtos
     @JoinColumn(name = "id_categoria")
     private Categoria categoria;
