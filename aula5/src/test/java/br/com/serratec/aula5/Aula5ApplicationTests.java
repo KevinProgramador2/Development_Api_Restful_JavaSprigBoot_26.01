@@ -1,10 +1,10 @@
-package br.com.serratec.exercicio1;
+package br.com.serratec.aula5;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Exercicio1ApplicationTests {
+class Aula5ApplicationTests {
 
 	@Test
 	void contextLoads() {

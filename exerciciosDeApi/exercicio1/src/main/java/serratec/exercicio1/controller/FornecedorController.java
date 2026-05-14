@@ -1,11 +1,11 @@
-package br.com.serratec.exercicio1.controller;
+package serratec.exercicio1.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.serratec.exercicio1.model.Fornecedor;
-import br.com.serratec.exercicio1.repository.FornecedorRepository;
+import serratec.exercicio1.controller.model.Fornecedor;
+import serratec.exercicio1.controller.repository.FornecedorRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

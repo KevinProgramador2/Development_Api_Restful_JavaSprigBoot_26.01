@@ -1,0 +1,6 @@
+2026-05-13 21:56:23.923489-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found; SQL statement:
+select * from veiculos [42102-240]
+2026-05-13 21:56:26.293189-03:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found; SQL statement:
+select * from veiculos [42102-240]

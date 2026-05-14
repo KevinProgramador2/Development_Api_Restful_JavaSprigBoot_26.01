@@ -1,4 +1,4 @@
-package br.com.serratec.exercicio1;
+package serratec;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

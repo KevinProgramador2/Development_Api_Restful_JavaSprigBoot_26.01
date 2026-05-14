@@ -1,4 +1,4 @@
-package br.com.serratec.exercicio1.model;
+package serratec.exercicio1.controller.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
