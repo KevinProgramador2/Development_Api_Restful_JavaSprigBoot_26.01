@@ -4,3 +4,926 @@ select * from veiculos [42102-240]
 2026-05-13 21:56:26.293189-03:00 jdbc[14]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VEICULOS" not found; SQL statement:
 select * from veiculos [42102-240]
+2026-05-14 18:37:11.507481-03:00 jdbc[30]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:37:11.516296-03:00 jdbc[30]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:38:00.881666-03:00 jdbc[46]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:38:00.885317-03:00 jdbc[46]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:38:03.822959-03:00 jdbc[56]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:38:03.825560-03:00 jdbc[56]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:38:03.830257-03:00 jdbc[56]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:43:56.128925-03:00 jdbc[66]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:43:56.129959-03:00 jdbc[66]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:43:56.131552-03:00 jdbc[66]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:44:24.051659-03:00 jdbc[76]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:44:24.052702-03:00 jdbc[76]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:44:24.054258-03:00 jdbc[76]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:44:33.404039-03:00 jdbc[86]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:44:33.410816-03:00 jdbc[86]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:44:33.416052-03:00 jdbc[86]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:47:04.651720-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:47:04.670372-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:47:04.683389-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:49:03.910020-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:49:03.935490-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 18:49:03.948036-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:08:11.097282-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:08:11.107290-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:08:11.109345-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:09:28.026614-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:09:28.027650-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:09:28.028685-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:35.184823-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:35.205172-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:35.208833-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:38.375420-03:00 jdbc[21]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:38.377481-03:00 jdbc[21]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:38.395119-03:00 jdbc[21]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:44.878601-03:00 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:44.879624-03:00 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:44.880653-03:00 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:47.397298-03:00 jdbc[37]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:47.398318-03:00 jdbc[37]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:47.398836-03:00 jdbc[37]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:50.964012-03:00 jdbc[47]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:50.965031-03:00 jdbc[47]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:50.966614-03:00 jdbc[47]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:55.573192-03:00 jdbc[57]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:55.574223-03:00 jdbc[57]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:10:55.575253-03:00 jdbc[57]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:11:24.166922-03:00 jdbc[67]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:11:24.169508-03:00 jdbc[67]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:11:24.182763-03:00 jdbc[67]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:11:27.554336-03:00 jdbc[77]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:11:27.556921-03:00 jdbc[77]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:11:27.558486-03:00 jdbc[77]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:19:55.120944-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:19:55.140160-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:19:55.142225-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:15.781281-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:15.808717-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:15.819606-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:15.827942-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:54.594086-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:54.597724-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:54.614443-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:24:54.640948-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:28:03.502759-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:28:03.527612-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:28:03.529685-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:28:03.531769-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:05.055304-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:05.091228-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:05.095924-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:05.110482-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:09.537594-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:09.539127-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:09.551684-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:09.555934-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:14.383966-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:14.534437-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:14.580351-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:14.587220-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:17.686141-03:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:17.687695-03:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:17.689246-03:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:17.690790-03:00 jdbc[43]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:21.433747-03:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:21.434772-03:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:21.435848-03:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:33:21.437950-03:00 jdbc[53]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:31.564011-03:00 jdbc[68]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:31.566095-03:00 jdbc[68]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:31.568169-03:00 jdbc[68]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:31.568680-03:00 jdbc[68]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:40.129270-03:00 jdbc[78]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:40.130822-03:00 jdbc[78]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:40.132379-03:00 jdbc[78]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:40.134989-03:00 jdbc[78]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:40.136569-03:00 jdbc[78]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUTENCAO" already exists; SQL statement:
+create global temporary table HTE_manutencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:48.616136-03:00 jdbc[88]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:48.619757-03:00 jdbc[88]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:48.637004-03:00 jdbc[88]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:48.663701-03:00 jdbc[88]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:48.668865-03:00 jdbc[88]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUTENCAO" already exists; SQL statement:
+create global temporary table HTE_manutencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:51.599079-03:00 jdbc[98]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:51.600622-03:00 jdbc[98]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:51.601178-03:00 jdbc[98]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:51.602213-03:00 jdbc[98]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:34:51.603262-03:00 jdbc[98]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUTENCAO" already exists; SQL statement:
+create global temporary table HTE_manutencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:35:29.714438-03:00 jdbc[108]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:35:29.715994-03:00 jdbc[108]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:35:29.717032-03:00 jdbc[108]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:35:29.718065-03:00 jdbc[108]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:19.865174-03:00 jdbc[118]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:19.865692-03:00 jdbc[118]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:19.867757-03:00 jdbc[118]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:19.868784-03:00 jdbc[118]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:19.870833-03:00 jdbc[118]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUTENCAO_CONTROLLER" already exists; SQL statement:
+create global temporary table HTE_manutencao_controller(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:37.785413-03:00 jdbc[129]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:37.790092-03:00 jdbc[129]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:37.791648-03:00 jdbc[129]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:37.794235-03:00 jdbc[129]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:37.795269-03:00 jdbc[129]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUTENCAO_CONTROLLER" already exists; SQL statement:
+create global temporary table HTE_manutencao_controller(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:53.132092-03:00 jdbc[139]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:53.133135-03:00 jdbc[139]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:53.135718-03:00 jdbc[139]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:36:53.137279-03:00 jdbc[139]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:52.297968-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:52.305194-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:52.306220-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:52.306731-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:55.672861-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:55.674933-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:55.684295-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:38:55.686907-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:40:12.569552-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:40:12.571114-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:40:12.575824-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, primary key (rn_)) transactional [42101-240]
+2026-05-14 19:40:12.577897-03:00 jdbc[33]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:41:58.702266-03:00 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:41:58.703863-03:00 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:41:58.706967-03:00 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:41:58.709119-03:00 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:14.189134-03:00 jdbc[54]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:14.192268-03:00 jdbc[54]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:14.193834-03:00 jdbc[54]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:14.196468-03:00 jdbc[54]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:41.305368-03:00 jdbc[64]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:41.306421-03:00 jdbc[64]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:41.307493-03:00 jdbc[64]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:42:41.308005-03:00 jdbc[64]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:53:43.742916-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:53:43.751757-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:53:43.754903-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:53:43.757497-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-14 19:54:23.421933-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM FUNCIONARIO ID [*]CPF"; SQL statement:
+SELECT * FROM FUNCIONARIO ID CPF [42000-240]
+2026-05-14 19:54:25.403054-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM FUNCIONARIO ID [*]CPF"; SQL statement:
+SELECT * FROM FUNCIONARIO ID CPF [42000-240]
+2026-05-14 19:55:28.696054-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "F" not found; SQL statement:
+SELECT 
+FROM FUNCIONARIO f
+WHERE f= 1 [42122-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:148)
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:149)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1215)
+	at org.h2.command.query.Query.prepare(Query.java:235)
+	at org.h2.command.Parser.prepareCommand(Parser.java:492)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-05-14 19:56:20.345522-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "F" not found; SQL statement:
+SELECT f as "tabela de funcionarios"
+FROM FUNCIONARIO f
+WHERE id=3 [42122-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.Alias.optimize(Alias.java:52)
+	at org.h2.command.query.Select.lambda$prepareExpressions$2(Select.java:1209)
+	at java.base/java.util.ArrayList.replaceAllRange(ArrayList.java:1712)
+	at java.base/java.util.ArrayList.replaceAll(ArrayList.java:1702)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1209)
+	at org.h2.command.query.Query.prepare(Query.java:235)
+	at org.h2.command.Parser.prepareCommand(Parser.java:492)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-05-14 19:56:32.668315-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT f as [*]'tabela de funcionarios'\000d\000aFROM FUNCIONARIO f\000d\000aWHERE id=3"; expected "identifier"; SQL statement:
+SELECT f as 'tabela de funcionarios'
+FROM FUNCIONARIO f
+WHERE id=3 [42001-240]
+2026-05-14 19:56:33.770918-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT f as [*]'tabela de funcionarios'\000d\000aFROM FUNCIONARIO f\000d\000aWHERE id=3"; expected "identifier"; SQL statement:
+SELECT f as 'tabela de funcionarios'
+FROM FUNCIONARIO f
+WHERE id=3 [42001-240]
+2026-05-14 19:57:01.486404-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT f as [*]'tabela de funcionarios'\000d\000aFROM FUNCIONARIO f \000d\000aWHERE id=3"; expected "identifier"; SQL statement:
+SELECT f as 'tabela de funcionarios'
+FROM FUNCIONARIO f 
+WHERE id=3 [42001-240]
+2026-05-14 19:59:19.139437-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT f as [*]'tabela de funcionarios', m ""manuntencao""\000d\000aFROM FUNCIONARIO f \000d\000aJOIN manuntencao m\000d\000aWHERE id=3"; expected "identifier"; SQL statement:
+SELECT f as 'tabela de funcionarios', m "manuntencao"
+FROM FUNCIONARIO f 
+JOIN manuntencao m
+WHERE id=3 [42001-240]
+2026-05-14 20:00:06.518516-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "V.FUNCIONARIO_ID" not found; SQL statement:
+SELECT 
+    f.*, 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 3 [42122-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:148)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:149)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1215)
+	at org.h2.command.query.Query.prepare(Query.java:235)
+	at org.h2.command.Parser.prepareCommand(Parser.java:492)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-05-14 20:00:09.506632-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "V.FUNCIONARIO_ID" not found; SQL statement:
+SELECT 
+    f.*, 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 3 [42122-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:148)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:149)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1215)
+	at org.h2.command.query.Query.prepare(Query.java:235)
+	at org.h2.command.Parser.prepareCommand(Parser.java:492)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-05-14 20:00:14.320290-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "V.FUNCIONARIO_ID" not found; SQL statement:
+SELECT 
+    f.*, 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 1 [42122-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:148)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:149)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1215)
+	at org.h2.command.query.Query.prepare(Query.java:235)
+	at org.h2.command.Parser.prepareCommand(Parser.java:492)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-05-14 20:00:23.194578-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT \000d\000a    f.[*], \000d\000a    m.* FROM \000d\000a    FUNCIONARIO f\000d\000aJOIN \000d\000a    VEICULO v ON v.funcionario_id = f.id\000d\000aJOIN \000d\000a    MANUTENCAO m ON m.id_veiculo = v.id\000d\000aWHERE \000d\000a    f.id = 1"; expected "identifier"; SQL statement:
+SELECT 
+    f., 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 1 [42001-240]
+2026-05-14 20:00:25.052091-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT \000d\000a    f.[*], \000d\000a    m.* FROM \000d\000a    FUNCIONARIO f\000d\000aJOIN \000d\000a    VEICULO v ON v.funcionario_id = f.id\000d\000aJOIN \000d\000a    MANUTENCAO m ON m.id_veiculo = v.id\000d\000aWHERE \000d\000a    f.id = 1"; expected "identifier"; SQL statement:
+SELECT 
+    f., 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 1 [42001-240]
+2026-05-14 20:00:25.561925-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT \000d\000a    f.[*], \000d\000a    m.* FROM \000d\000a    FUNCIONARIO f\000d\000aJOIN \000d\000a    VEICULO v ON v.funcionario_id = f.id\000d\000aJOIN \000d\000a    MANUTENCAO m ON m.id_veiculo = v.id\000d\000aWHERE \000d\000a    f.id = 1"; expected "identifier"; SQL statement:
+SELECT 
+    f., 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 1 [42001-240]
+2026-05-14 20:00:26.462382-03:00 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT \000d\000a    f.[*], \000d\000a    m.* FROM \000d\000a    FUNCIONARIO f\000d\000aJOIN \000d\000a    VEICULO v ON v.funcionario_id = f.id\000d\000aJOIN \000d\000a    MANUTENCAO m ON m.id_veiculo = v.id\000d\000aWHERE \000d\000a    f.id = 1"; expected "identifier"; SQL statement:
+SELECT 
+    f., 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 1 [42001-240]
+2026-05-14 20:00:53.148086-03:00 jdbc[26]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "V.FUNCIONARIO_ID" not found; SQL statement:
+SELECT 
+    f.*, 
+    m.* FROM 
+    FUNCIONARIO f
+JOIN 
+    VEICULO v ON v.funcionario_id = f.id
+JOIN 
+    MANUTENCAO m ON m.id_veiculo = v.id
+WHERE 
+    f.id = 3 [42122-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:244)
+	at org.h2.expression.ExpressionColumn.optimizeOther(ExpressionColumn.java:226)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:213)
+	at org.h2.expression.condition.Comparison.optimize(Comparison.java:148)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.condition.ConditionAndOr.optimize(ConditionAndOr.java:137)
+	at org.h2.expression.Expression.optimizeCondition(Expression.java:149)
+	at org.h2.command.query.Select.prepareExpressions(Select.java:1215)
+	at org.h2.command.query.Query.prepare(Query.java:235)
+	at org.h2.command.Parser.prepareCommand(Parser.java:492)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:647)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:563)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1160)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:245)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1344)
+	at org.h2.server.web.WebApp.query(WebApp.java:1142)
+	at org.h2.server.web.WebApp.query(WebApp.java:1118)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:842)

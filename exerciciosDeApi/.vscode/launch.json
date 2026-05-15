@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exercicio1Application",
+            "request": "launch",
+            "mainClass": "serratec.Exercicio1Application",
+            "projectName": "exercicio1"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Exercicio1Application<exercicio1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.serratec.exercicio1.Exercicio1Application",
+            "projectName": "exercicio1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

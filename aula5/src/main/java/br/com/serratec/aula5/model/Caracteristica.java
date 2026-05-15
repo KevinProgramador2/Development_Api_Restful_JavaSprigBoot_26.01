@@ -4,9 +4,11 @@ import br.com.serratec.aula5.enums.Categoria;
 import br.com.serratec.aula5.enums.Combustivel;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 
 public class Caracteristica {
     private String renavam;
