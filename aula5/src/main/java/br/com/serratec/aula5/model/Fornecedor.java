@@ -14,7 +14,8 @@ import lombok.Setter;
 
 public class Fornecedor {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String nome;
     private String cpf;

@@ -1,6 +1,8 @@
 package br.com.serratec.aula5.model;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
@@ -9,36 +11,36 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.PrePersist;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
 @Getter
 @Setter
-
+@Entity
 public class Manuntencao {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String descricao;
+
     private LocalDate dataEntrada;
     private LocalDate dataSaida;
-    private String descricao;
 
     @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "id_veiculo")
     private Veiculo veiculo;
 
-    /**
-     * Este método é um gatilho automático.
-     * Ele é executado pelo Hibernate logo antes de criar um novo registo no banco
-     * de dados.
-     */
-    @PrePersist
-    public void antesDeSalvar() {
-        // Pega a data de hoje do relógio do sistema e guarda na variável
-        dataEntrada = LocalDate.now();
-    }
+    @ManyToMany
+    @JoinTable(name = "manutencao_servico", joinColumns = @JoinColumn(name = "id_manutencao"), inverseJoinColumns = @JoinColumn(name = "id_servico"))
+    private List<Servico> servicos = new ArrayList<>();
+
 }
+/**
+ * Este método é um gatilho automático.
+ * Ele é executado pelo Hibernate logo antes de criar um novo registo no banco
+ * de dados.
+ */

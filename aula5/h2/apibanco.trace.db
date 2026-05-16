@@ -927,3 +927,199 @@ WHERE
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
 	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-05-15 18:40:37.696344-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:37.725910-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:37.727973-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:37.731616-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:37.736274-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:42.118360-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:42.119393-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:42.121467-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:42.129764-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:40:42.136489-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:56:51.988802-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:56:51.996596-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:56:51.998659-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:56:52.001345-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 18:56:52.006541-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:02:14.517267-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select\000d\000am.data_entrada,\000d\000av.modelo,\000d\000as.descricao,\000d\000a[*]from manutencao m\000d\000ainner join veiculo v on v.id = m.id\000d\000ainner join servico s on s.id = v.id"; expected "*, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+select
+m.data_entrada,
+v.modelo,
+s.descricao,
+from manutencao m
+inner join veiculo v on v.id = m.id
+inner join servico s on s.id = v.id [42001-240]
+2026-05-15 19:02:17.018669-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select\000d\000am.data_entrada,\000d\000av.modelo,\000d\000as.descricao,\000d\000a[*]from manutencao m\000d\000ainner join veiculo v on v.id = m.id\000d\000ainner join servico s on s.id = v.id"; expected "*, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+select
+m.data_entrada,
+v.modelo,
+s.descricao,
+from manutencao m
+inner join veiculo v on v.id = m.id
+inner join servico s on s.id = v.id [42001-240]
+2026-05-15 19:02:19.206920-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select\000d\000am.data_entrada,\000d\000av.modelo,\000d\000as.descricao,\000d\000a[*]from manutencao m\000d\000ainner join veiculo v on v.id = m.id\000d\000ainner join servico s on s.id = v.id"; expected "*, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+select
+m.data_entrada,
+v.modelo,
+s.descricao,
+from manutencao m
+inner join veiculo v on v.id = m.id
+inner join servico s on s.id = v.id [42001-240]
+2026-05-15 19:04:29.723824-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MODELO" not found; SQL statement:
+select data_entrada d
+from modelo m
+inner join servico s [42102-240]
+2026-05-15 19:06:36.350218-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MANUNTENCA_SERVICO" not found; SQL statement:
+select m.data_entrada, v.modelo, s.descricao, m.descricao
+from manutencao m
+inner join veiculo v on v.id = m.id
+inner join servico s on s.id = m.id
+inner join manuntenca_servico ms on v.id= m.id [42102-240]
+2026-05-15 19:06:45.130719-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MANUNTENCAO_SERVICO" not found; SQL statement:
+select m.data_entrada, v.modelo, s.descricao, m.descricao
+from manutencao m
+inner join veiculo v on v.id = m.id
+inner join servico s on s.id = m.id
+inner join manuntencao_servico ms on v.id= m.id [42102-240]
+2026-05-15 19:22:04.739534-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:04.741902-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:04.743976-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:04.745601-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:04.749289-03:00 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:43.199875-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:43.200912-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:43.201938-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:43.204586-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:22:43.207150-03:00 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:27.468469-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:27.570379-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:27.572566-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:27.585545-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:27.593975-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:30.691551-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:30.693116-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:30.695181-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:30.696214-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:30.697764-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:33.750966-03:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:33.753038-03:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:33.758777-03:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:33.767055-03:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:33.773386-03:00 jdbc[32]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:45.791631-03:00 jdbc[41]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:45.793712-03:00 jdbc[41]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:45.795258-03:00 jdbc[41]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:45.797332-03:00 jdbc[41]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:45.798872-03:00 jdbc[41]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:53.528034-03:00 jdbc[51]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_FISICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_fisica(rn_ integer not null, id bigint, ci varchar(255), cpf varchar(255), nome varchar(255), orgaoExpedidor varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:53.531232-03:00 jdbc[51]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_PESSOA_JURIDICA" already exists; SQL statement:
+create global temporary table HTE_pessoa_juridica(rn_ integer not null, id bigint, cnpj varchar(255), cpf varchar(255), inscricaoEstadual varchar(255), nome varchar(255), nomeFantasia varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:53.535398-03:00 jdbc[51]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_MANUNTENCAO" already exists; SQL statement:
+create global temporary table HTE_manuntencao(dataEntrada date, dataSaida date, rn_ integer not null, id bigint, veiculo_id bigint, descricao varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:53.540538-03:00 jdbc[51]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_FUNCIONARIO" already exists; SQL statement:
+create global temporary table HTE_funcionario(rn_ integer not null, id bigint, cpf varchar(255), nome varchar(255), primary key (rn_)) transactional [42101-240]
+2026-05-15 19:53:53.548422-03:00 jdbc[51]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HTE_SERVICO" already exists; SQL statement:
+create global temporary table HTE_servico(rn_ integer not null, id bigint, valor float(53), descricao varchar(255), primary key (rn_)) transactional [42101-240]
