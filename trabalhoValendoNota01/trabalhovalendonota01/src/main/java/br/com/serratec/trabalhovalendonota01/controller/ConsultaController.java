@@ -1,6 +1,5 @@
 package br.com.serratec.trabalhovalendonota01.controller;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -43,13 +42,12 @@ public class ConsultaController {
         return ResponseEntity.notFound().build();
     }
 
-      @GetMapping("/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Consulta> buscarConsulta(@PathVariable Long id) {
         return service.buscar(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
-
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> apagar(@PathVariable Long id) {

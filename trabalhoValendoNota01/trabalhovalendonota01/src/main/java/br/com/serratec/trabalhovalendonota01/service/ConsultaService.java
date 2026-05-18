@@ -46,7 +46,7 @@ public class ConsultaService {
         return consultaRepository.save(consulta);
     }
 
-    // ✅ ADICIONE ISSO
+   
     public Optional<Consulta> buscar(Long id) {
         return consultaRepository.findById(id);
     }
