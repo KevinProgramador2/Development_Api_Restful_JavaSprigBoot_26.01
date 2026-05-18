@@ -13,10 +13,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+
+import br.com.serratec.trabalhovalendonota01.model.Consulta;
 import br.com.serratec.trabalhovalendonota01.model.Paciente;
 import br.com.serratec.trabalhovalendonota01.repository.PacienteRepository;
 // import io.swagger.v3.oas.annotations.parameters.RequestBody;
-import org.springframework.web.bind.annotation.RequestBody; 
+import org.springframework.web.bind.annotation.RequestBody;
 import jakarta.validation.Valid;
 
 @RestController
@@ -30,6 +32,10 @@ public class PacienteController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Paciente inserir(@Valid @RequestBody Paciente paciente) {
+        for (Consulta c : paciente.getConsultas()) {
+            c.setPaciente(paciente);
+        }
+
         return repository.save(paciente);
     }
 
@@ -39,6 +45,9 @@ public class PacienteController {
             @PathVariable Long id) {
         if (repository.existsById(id)) {
             paciente.setId(id);
+            for (Consulta c : paciente.getConsultas()) {
+                c.setPaciente(paciente);
+            }
             return ResponseEntity.ok(repository.save(paciente));
         }
         return ResponseEntity.notFound().build();
@@ -57,7 +66,9 @@ public class PacienteController {
 
     @GetMapping
     public List<Paciente> listarPacientes() {
+
         return repository.findAll();
+
     }
 
     @DeleteMapping("/{id}")

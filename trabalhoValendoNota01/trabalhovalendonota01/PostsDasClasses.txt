@@ -1,0 +1,42 @@
+POST PACIENTE: 
+
+{
+  "nome": "ana",
+  "email": "ana@gmail.com",
+  "telefone": "12345678912",
+  "consultas": [
+    {
+      "dataConsulta": "2026-05-18",
+      "status": "AGUARDANDO",
+      "medico": {
+        "id": 1
+      }
+    }
+  ]
+}
+
+===========================
+POST MEDICO: 
+
+{
+  "crm": 123456,
+  "nome": "Dr. Ronaldo",
+  "especialidade": "Oftalmologia",
+  "email": "ronaldo@gmail.com",
+  "telefone": "123456789"
+}
+
+================
+
+POST  CONSULTAS: 
+
+{
+  "dataConsulta": "2026-05-18",
+  "status": "AGUARDANDO",
+  "medico": {
+    "id": 1
+  },
+  "paciente": {
+    "id": 67
+  }
+}

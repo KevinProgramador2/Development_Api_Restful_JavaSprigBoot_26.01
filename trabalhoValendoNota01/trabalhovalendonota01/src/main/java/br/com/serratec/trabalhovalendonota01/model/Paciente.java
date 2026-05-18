@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -13,11 +14,12 @@ import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-
+@NoArgsConstructor
 @Entity
 public class Paciente {
 
@@ -37,6 +39,6 @@ public class Paciente {
     private String telefone;
 
     @JsonManagedReference
-    @OneToMany(mappedBy = "paciente")
+    @OneToMany(mappedBy = "paciente",cascade = CascadeType.ALL)
     private List<Consulta> consultas = new ArrayList<>();
 }

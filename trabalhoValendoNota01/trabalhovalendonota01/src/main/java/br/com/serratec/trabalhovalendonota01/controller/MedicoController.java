@@ -51,6 +51,7 @@ public class MedicoController {
         Optional<Medico> medicoOptional = repository.findById(id);
 
         if (medicoOptional.isPresent()) {
+            
             return ResponseEntity.ok(medicoOptional.get());
         }
         return ResponseEntity.notFound().build();
@@ -64,4 +65,5 @@ public class MedicoController {
         }
         return ResponseEntity.notFound().build();
     }
+
 }
