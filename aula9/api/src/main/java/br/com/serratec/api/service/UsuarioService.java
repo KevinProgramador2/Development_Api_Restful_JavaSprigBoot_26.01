@@ -1,14 +1,15 @@
 package br.com.serratec.api.service;
 
 import java.util.List;
-import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import br.com.serratec.api.dto.UsuarioRequestDTO;
+import br.com.serratec.api.dto.UsuarioResponseDTO;
 import br.com.serratec.api.exceptions.UsuarioException;
-// Use a standard runtime exception instead of a custom checked exception
 import br.com.serratec.api.model.Usuario;
 import br.com.serratec.api.repository.UsuarioRepository;
 
@@ -16,20 +17,37 @@ import br.com.serratec.api.repository.UsuarioRepository;
 public class UsuarioService {
     @Autowired
     private UsuarioRepository repository;
-    
+
     @Autowired
     private BCryptPasswordEncoder criptografar;
 
-    public List<Usuario> listarTodos() {
-        return repository.findAll();
+    public List<UsuarioResponseDTO> listarTodos() {
+
+        // List<Usuario> usuarios = repository.findAll();
+        // List<UsuarioResponseDTO> dto = new ArrayList<>();
+
+        // for (Usuario usuario : usuarios) {
+        // dto.add(new UsuarioResponseDTO(usuario.getId(), usuario.getNome(),
+        // usuario.getEmail()));
+        // }
+        // return dto;
+
+        return repository.findAll().stream()
+                .map(usuario -> new UsuarioResponseDTO(usuario.getId(), usuario.getNome(), usuario.getEmail()))
+                .collect(Collectors.toList());
     }
 
-    public Usuario inserir(Usuario usuario){
-        Usuario usuarioBanco = repository.findByEmail(usuario.getEmail());
+    public UsuarioResponseDTO inserir(UsuarioRequestDTO dto) {
+        Usuario usuarioBanco = repository.findByEmail(dto.getEmail());
         if (usuarioBanco != null) {
-            throw new UsuarioException("Email já cadastrado");    
+            throw new UsuarioException("Email já cadastrado");
         }
-        usuario.setSenha(criptografar.encode(usuario.getSenha()));
-        return repository.save(usuario);
+        Usuario usuario = new Usuario();
+        usuario.setNome(dto.getNome());
+        usuario.setEmail(dto.getEmail());
+        usuario.setSenha(criptografar.encode(dto.getSenha()));
+
+        Usuario usuarioSalvo = repository.save(usuario);
+        return new UsuarioResponseDTO(usuarioSalvo.getId(), usuarioSalvo.getNome(), usuarioSalvo.getEmail());
     }
 }

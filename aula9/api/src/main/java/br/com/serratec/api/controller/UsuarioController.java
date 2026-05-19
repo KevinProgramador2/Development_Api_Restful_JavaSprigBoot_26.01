@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.serratec.api.service.UsuarioService;
 import java.util.*;
+
+import br.com.serratec.api.dto.UsuarioResponseDTO;
+import br.com.serratec.api.dto.UsuarioRequestDTO;
 import br.com.serratec.api.model.*;
 
 @RestController
@@ -22,7 +25,7 @@ public class UsuarioController {
     private UsuarioService service;
 
     @GetMapping
-    public ResponseEntity<List<Usuario>> listar() {
+    public ResponseEntity<List<UsuarioResponseDTO>> listar() {
         return ResponseEntity.ok(service.listarTodos());
     }
 
@@ -33,7 +36,7 @@ public class UsuarioController {
     // }
 
     @PostMapping
-    public ResponseEntity<Usuario> inserir(@RequestBody Usuario usuario) {
-        return ResponseEntity.created(null).body(service.inserir(usuario));
+    public ResponseEntity<UsuarioResponseDTO> inserir(@RequestBody UsuarioRequestDTO usuarioRequest) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(service.inserir(usuarioRequest));
     }
 }
